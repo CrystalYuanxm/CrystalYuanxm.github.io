@@ -1,4 +1,4 @@
-baseURL: "https://crystalyuanxm.github.io/"
+baseURL: "http://crystalyuan.com/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: CRYSTAL YUAN'S WORLD
     subtitle: "Let's get familiar with Crystal ~~~"
-    imageUrl: "https://raw.githubusercontent.com/CrystalYuanxm/CrystalYuanxm.github.io/main/public/Images/Page%20photo.JPG"
+    imageUrl: "https://github.com/CrystalYuanxm/CrystalYuanxm.github.io/blob/main/public/Images/Homepage_photo.JPG?raw=true"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -70,13 +70,10 @@ params:
         url: Tags
       - name: Projects
         url: tags
-      - name: Resume
+      - name: Daily
         url: tags
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+
 
   socialIcons:
     - name: email
@@ -119,13 +116,13 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: About
+      name: About me
+      url: /About/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: Projects
+      name: Projects
+      url: /Projects/
       weight: 20
     - identifier: example
       name: example.org
