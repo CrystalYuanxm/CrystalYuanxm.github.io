@@ -67,7 +67,7 @@ params:
     imageTitle: my image
     buttons:
       - name: About me
-        url: Tags
+        url: About
       - name: Projects
         url: tags
       - name: Daily
