@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://crystalyuanxm.github.io/"
 title: ExampleSite
 paginate: 5
 theme: PaperMod
@@ -21,7 +21,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["Images/Page photo.JPG"]
+  images: ["https://github.com/CrystalYuanxm/CrystalYuanxm.github.io/blob/main/public/Images/Page%20photo.JPG"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: CRYSTAL YUAN'S WORLD
     subtitle: "Let's get familiar with Crystal ~~~"
-    imageUrl: "/Images/Page photo.JPG"
+    imageUrl: "https://raw.githubusercontent.com/CrystalYuanxm/CrystalYuanxm.github.io/main/public/Images/Page%20photo.JPG"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
